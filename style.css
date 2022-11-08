@@ -2,7 +2,8 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
-    background: #ccc;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(bg1.jpg);
+    background-size: cover;
     font-family: sans-serif;
 }
 
@@ -20,23 +21,23 @@ body{
 #inputText{
     width: 300px;
     height: 45px;
-    border: 1px solid black;
+    border: 1px solid rgb(242, 15, 15);
     outline: none;
     font-size: 25px;
     vertical-align: middle;
-    border: 3px solid orange;
+    border: 2px solid rgb(248, 6, 6);
     border-radius: 15px;
 }
 
 #addToDo{
     width: 80px;
     height: 45px;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     vertical-align: middle;
     font-size: 25px;
     outline: none;
     cursor: pointer;
-    background-color: green;
+    background-color: rgb(14, 249, 26);
     color: #fff;
     text-align: center;
     border-radius: 10px;
@@ -69,7 +70,7 @@ body{
     margin: 0;
     cursor: pointer;
     font-size: 35px;
-    color: purple;
+    color: rgb(255, 255, 255);
     text-transform: capitalize;
 }
 
